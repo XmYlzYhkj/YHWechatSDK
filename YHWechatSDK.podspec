@@ -26,6 +26,5 @@ Pod::Spec.new do |s|
 
   s.vendored_libraries = "Classes/*.a"
   
-  s.resources    = 'Resources/AlipaySDK.bundle'
 
 end

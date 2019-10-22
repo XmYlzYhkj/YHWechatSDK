@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.frameworks       = 'SystemConfiguration', 'CoreTelephony'
+  s.frameworks       = 'SystemConfiguration', 'CoreTelephony', 'WebKit'
 
   s.libraries        = 'z', 'c++', 'sqlite3'
 
